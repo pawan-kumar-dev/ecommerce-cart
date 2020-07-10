@@ -1,0 +1,36 @@
+.filter{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 0.5rem;
+    width: 30%;
+}
+.inputs{
+    margin: 1rem 0;
+    padding: 0.2rem;
+    width: 96%;
+    border: 0;
+    outline: none;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.1rem 0.1rem 0.1rem black;
+}
+.avail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.3rem;
+}
+span{
+    font-size: 1.2rem;
+    font-weight: 900;
+    border-bottom: 1px solid black;
+}
+@media(max-width:650px){
+    .filter{
+        width: 100%;
+    }
+}

@@ -1,0 +1,43 @@
+.App{
+    width: 100%;
+    background-color: azure;
+}
+header{
+   grid-area: header;
+   background-color: #203040;
+   color: #ffffff;
+   display: flex;
+   align-items: center;
+   padding: 0.5rem;
+}
+a:hover{
+    color: orange;
+}
+body,input,select,textarea{
+    font-size: 1.2rem;
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+}
+main{
+    display: flex;
+    min-height: 100vh;
+ }
+ main>div:last-of-type{
+     display: flex;
+     justify-content: space-between;
+ }
+ footer{
+    grid-area:footer;
+    background-color: #203040;
+    color: #ffffff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ @media(max-width:650px){
+    main{
+        flex-direction: column;
+     }
+ }

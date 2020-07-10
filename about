@@ -1,0 +1,1 @@
+run the npx json-server db.json on the port 3000 and then run the react app so that the fetch call is using the "http://localhost:3000/products" url can easily get the data

@@ -1,0 +1,85 @@
+{
+    "products":[
+    {
+        "id":"product1",
+        "title":"Black tshirt",
+        "price":500,
+        "image":"btshirt.jpeg",
+        "Size":["X","XL","M","L","S"],
+        "inStock":false,
+        "desc":"Buy amazing black T-shirt for the your good look."
+    },
+    {
+        "id":"product2",
+        "title":"Black tshirt",
+        "price":400,
+        "image":"btshirt1.jpg",
+        "Size":["M","L","S","XXL"],
+        "inStock":true,
+        "desc":"Buy amazing black T-shirt for the your good look."
+    },
+    {
+        "id":"product3",
+        "title":"Jacket",
+        "price":900,
+        "image":"jacket.jpeg",
+        "Size":["X","XL","L","S"],
+        "inStock":true,
+        "desc":"Here is an amazing Jacket for the best personality."
+    },
+    {
+        "id":"product4",
+        "title":"Trousers",
+        "price":700,
+        "image":"jacket1.jpeg",
+        "Size":["X","XL","M","L","XXL"],
+        "inStock":false,
+        "desc":"Here is a trouser for the betterment and feel like a light clothes."
+    },
+    {
+        "id":"product5",
+        "title":"Pant",
+        "price":600,
+        "image":"pant.jpeg",
+        "Size":["X","XL","M","S","XXL"],
+        "inStock":true,
+        "desc":"Buy a cool looking Jeans pant for yourself."
+    },
+    {
+        "id":"product6",
+        "title":"Shirt",
+        "price":450,
+        "image":"shirt.jpeg",
+        "Size":["X","XL","M","L","S"],
+        "inStock":true,
+        "desc":"Buy thi shirt for looking good and smart."
+    },
+    {
+        "id":"product7",
+        "title":"Jacket",
+        "price":1500,
+        "image":"jacket1.jpeg",
+        "Size":["X","XL","M","L","XXL"],
+        "inStock":false,
+        "desc":"Buy amazing Jacket and wear it to look like hero."
+    },
+    {
+        "id":"product8",
+        "title":"Kurta",
+        "price":1500,
+        "image":"kurta.jpeg",
+        "Size":["X","XL","M","L"],
+        "inStock":true,
+        "desc":"Here is a kurta for the traditional wears."
+    },
+    {
+        "id":"product9",
+        "title":"Shirt",
+        "price":600,
+        "image":"shirt1.jpeg",
+        "Size":["X","XL","M","L"],
+        "inStock":false,
+        "desc":"Buy this shirt for the formal and decent look."
+    }
+  ]
+  }
