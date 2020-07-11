@@ -3,7 +3,7 @@ import classes from './Filter.module.css';
 const Filter=(props)=>{
         return (
             <div className={classes.filter}>
-                <span>{props.length} Cars Found</span>
+                <span>{props.length} Products Found</span>
                 <span>Filter Products Here</span>
                 <select className={classes.inputs} value={props.sort} name="sort" onChange={props.change}>
                     <option value="All">Sort Price</option>
